@@ -1,2 +1,2 @@
 // CAMBIA SOLO ESTA PALABRA: "normal" o "verano"
-const CARTA_ACTIVA = "normal";
+const CARTA_ACTIVA = "verano";
