@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TERNERA GRILL - Carta</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eee2cf;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  padding: 30px 20px 20px;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-top: 8px;
+  font-style: italic;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 10px 18px 40px;
+}
+
+.section {
+  margin-bottom: 28px;
+}
+
+.section h2 {
+  background: #126b73;
+  color: white;
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 19px;
+  margin-bottom: 12px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  border-bottom: 1px dotted #999;
+  padding: 10px 0;
+}
+
+.item-name {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.price {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.description {
+  font-size: 14px;
+  margin-top: 4px;
+  color: #555;
+  line-height: 1.4;
+}
+
+.note {
+  font-size: 14px;
+  color: #555;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px 10px;
+  border-top: 1px solid #aaa;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+
+  .section h2 {
+    font-size: 17px;
+  }
+
+  .item-name {
+    font-size: 16px;
+  }
+
+  .item {
+    gap: 10px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">TERNERA GRILL</div>
+  <div class="subtitle">Cocina gallega y brasa · Tradición y fuego</div>
+</header>
+
+<div class="container">
+
+  <section class="section">
+    <h2>Entrantes para picar</h2>
+
+    <div class="item">
+      <div>
+        <div class="item-name">Croquetas (caseras)</div>
+        <div class="description">Croquetas caseiras</div>
+      </div>
+      <div class="price">15,00€</div>
+    </div>
+
+    <div class="item">
+      <div>
+        <div class="item-name">Chipirones fritos</div>
+        <div class="description">Luras fritidas</div>
+      </div>
+      <div class="price">15,50€</div>
+    </div>
+
+    <div class="item">
+      <div>
+        <div class="item-name">Pulpo a la gallega</div>
+        <div class="description">Polbo a galega</div>
+      </div>
+      <div class="price">20,00€</div>
+    </div>
+
+    <div class="item">
+      <div class="item-name">Vieiras del pacífico (12 uds.)</div>
+      <div class="price">20,00€</div>
+    </div>
+
+    <div class="item">
+      <div>
+        <div class="item-name">Verduras y langostinos en tempura</div>
+        <div class="description">Verduras e gambas en tempura</div>
+      </div>
+      <div class="price">17,00€</div>
+    </div>
+
+    <div class="item">
+      <div class="item-name">Pimientos de padrón</div>
+      <div class="price">11,00€</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Tortilla de Betanzos</h2>
+
+    <div class="item">
+      <div class="item-name">Tortilla de Betanzos · 2 pers.</div>
+      <div class="price">18,00€</div>
+    </div>
+
+    <div class="item">
+      <div class="item-name">Tortilla de Betanzos · 4 pers.</div>
+      <div class="price">22,00€</div>
+    </div>
+
+    <div class="note">
+      La tortilla de Betanzos es una tortilla de patatas y huevo poco hecha.
+      <br>
+      A tortilla de Betanzos é unha tortilla lixeiramente cocida feita con patacas e ovos.
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Ensaladas</h2>
+
+    <div class="item">
+      <div>
+        <div class="item-name">Ensalada mixta</div>
+        <div class="description">Lechuga, tomate y cebolla.</div>
+      </div>
+      <div class="price">9,00€</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Carnes</h2>
+
+    <div class="item">
+      <div>
+        <div class="item-name">Raxo de cerdo</div>
+        <div class="description">Lomo de cerdo, pimientos y patatas fritas.</div>
+      </div>
+      <div class="price">16,00€</div>
+    </div>
+
+    <div class="item">
+      <div>
+        <div class="item-name">Raxo de pollo</div>
+        <div class="description">Pechuga de pollo, champiñones, salsa de queso y patatas fritas.</div>
+      </div>
+      <div class="price">16,50€</div>
+    </div>
+
+    <div class="item">
+      <div>
+        <div class="item-name">Croca</div>
+        <div class="description">Croca de ternera y patatas fritas.</div>
+      </div>
+      <div class="price">18,00€</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Parrillada</h2>
+
+    <div class="item">
+      <div>
+        <div class="item-name">Parrillada mixta · 2 pers.</div>
+        <div class="description">
+          Churrasco de ternera, churrasco de cerdo, pollo, chorizo y patatas fritas.
+        </div>
+      </div>
+      <div class="price">35,00€</div>
+    </div>
+
+    <div class="item">
+      <div>
+        <div class="item-name">Churrasco de ternera</div>
+        <div class="description">Churrasco de ternera y patatas fritas.</div>
+      </div>
+      <div class="price">18,00€</div>
+    </div>
+
+    <div class="item">
+      <div>
+        <div class="item-name">Churrasco de cerdo</div>
+        <div class="description">Churrasco de cerdo y patatas fritas.</div>
+      </div>
+      <div class="price">21,00€</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Hamburguesas</h2>
+
+    <div class="item">
+      <div>
+        <div class="item-name">Hamburguesa crispy chicken</div>
+        <div class="description">Pollo crispy, queso, lechuga, tomate y patatas fritas.</div>
+      </div>
+      <div class="price">13,00€</div>
+    </div>
+
+    <div class="item">
+      <div>
+        <div class="item-name">Hamburguesa vegana</div>
+        <div class="description">
+          Carne vegana, lechuga, tomate, pepinillo, cebolla,
+          mayonesa vegana, queso vegano y patatas fritas.
+        </div>
+      </div>
+      <div class="price">12,00€</div>
+    </div>
+
+    <div class="item">
+      <div>
+        <div class="item-name">Hamburguesa completa</div>
+        <div class="description">Carne, queso, bacon, lechuga, tomate y patatas fritas.</div>
+      </div>
+      <div class="price">11,00€</div>
+    </div>
+
+    <div class="item">
+      <div>
+        <div class="item-name">Alitas de pollo</div>
+        <div class="description">Alitas con patatas fritas.</div>
+      </div>
+      <div class="price">14,00€</div>
+    </div>
+
+    <div class="item">
+      <div class="item-name">Tequeños de queso</div>
+      <div class="price">14,00€</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Postres</h2>
+
+    <div class="item">
+      <div class="item-name">Postres de la casa</div>
+      <div class="price">6,50€</div>
+    </div>
+
+    <div class="item">
+      <div class="item-name">Helado · 1 bola</div>
+      <div class="price">3,70€</div>
+    </div>
+
+    <div class="item">
+      <div class="item-name">Helado · 2 bolas</div>
+      <div class="price">4,70€</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="item">
+      <div class="item-name">Ración de pan por persona</div>
+      <div class="price">1,10€</div>
+    </div>
+  </section>
+
+  <div class="note">
+    <strong>Precios en terraza:</strong> se incrementarán 0,10€ cada consumición.
+  </div>
+
+</div>
+
+<footer class="footer">
+  <strong>TERNERA GRILL</strong><br>
+  Cocina gallega y brasa · Tradición y fuego<br><br>
+  www.terneragrill.es
+</footer>
+
+</body>
+</html>
