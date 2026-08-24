@@ -34,7 +34,7 @@ const pdf = CARTA_ACTIVA === "verano"
     ? "carta-verano.pdf"
     : "carta-normal.pdf";
 
-document.getElementById("carta").src = pdf;
+window.location.href = pdf;
 </script>
 
 </body>
